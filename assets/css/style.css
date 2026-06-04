@@ -31909,6 +31909,12 @@ span.select2-selection.select2-selection--single:focus {
     padding: 1em;
   }
 }
+.contact {
+  background-image: url("../img/gurunanak-images/contact-banner.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
 
 /* Custom mobile css */
 
@@ -32026,5 +32032,5 @@ span.select2-selection.select2-selection--single:focus {
   }
   .sector_compliance_section2 .why-item_wrapper {
     grid-template-columns: repeat(1, 1fr);
-}
+  }
 }
