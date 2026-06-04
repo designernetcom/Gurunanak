@@ -2021,7 +2021,7 @@ textarea.is-invalid {
   vertical-align: middle;
   display: inline-block;
   border: none;
-  text-transform: uppercase;
+  text-transform: capitalize;
   text-align: center;
   background-color: var(--theme-color);
   color: var(--white-color);
@@ -9662,7 +9662,7 @@ ul.comment-list .th-comment-item:first-child > .th-post-comment {
   position: absolute;
 }
 .th-hero-bg {
-  position: absolute;
+  /* position: absolute; */
   inset: 0;
 }
 .th-hero-bg img {
@@ -11149,7 +11149,8 @@ ul.comment-list .th-comment-item:first-child > .th-post-comment {
   visibility: visible;
 }
 .hero-style10 {
-  padding: 320px 0 235px 0;
+  /* padding: 320px 0 235px 0; */
+  padding: 175px 0;
 }
 .hero-style10 .hero-meta span {
   text-transform: uppercase;
@@ -31533,7 +31534,7 @@ span.select2-selection.select2-selection--single:focus {
   padding: 80px 0 50px;
 }
 .slide {
-  padding: 40px 0 30px;
+  /* padding: 40px 0 30px; */
 }
 .slide h2 {
   font-size: 36px;
@@ -31910,6 +31911,7 @@ span.select2-selection.select2-selection--single:focus {
 }
 
 /* Custom mobile css */
+
 @media only screen and (min-width: 991px) and (max-width: 1300px) {
   .th-header .main-menu a {
     font-size: 13px;
@@ -31945,7 +31947,7 @@ span.select2-selection.select2-selection--single:focus {
     text-align: left;
   }
   .why-sec-v2 .wcu-box.style2 {
-    height: 32vh;
+    height: auto;
   }
   .counter-grid.style2 {
     height: auto;
@@ -31965,4 +31967,64 @@ span.select2-selection.select2-selection--single:focus {
   .shape-mockup {
     display: none;
   }
+  .feature-grid-wrap {
+    margin-top: 40px;
+  }
+  #about-sec .sub-title6 .shape {
+    display: none;
+  }
+  .why-area13 .sub-title8 {
+    font-size: 30px;
+  }
+  .process-sec_section5 .process-card {
+    height: auto;
+  }
+  .sub-title2 {
+    font-size: 16px;
+  }
+  .process-content h2 {
+    font-size: 23px;
+  }
+  .shape-mockup-wrap h2 {
+    font-size: 25px;
+  }
+  .shape-mockup-wrap {
+    padding: 0px 0 30px;
+  }
+  .sub-title6 .shape {
+    display: none;
+  }
+  .spotlight .video-box1 .img1 {
+    position: static;
+  }
+  .instrument_backed .img-box14 {
+    margin-top: 50px;
+  }
+  .process {
+    padding: 50px 0 0;
+  }
+  .blog-area-4 {
+    margin: 50px 0;
+  }
+  .swiss-grid h2 {
+    font-size: 20px;
+  }
+  .two-column-layout .column-left h2 {
+    font-size: 20px;
+  }
+  .service-sec-5 {
+    padding: 0;
+  }
+  .equipment_catlog_section8 {
+    padding: 0;
+  }
+  .service-sec-5 .title-area {
+    margin-top: 50px;
+  }
+  .service-sec-5 h2 {
+    font-size: 25px;
+  }
+  .sector_compliance_section2 .why-item_wrapper {
+    grid-template-columns: repeat(1, 1fr);
+}
 }
