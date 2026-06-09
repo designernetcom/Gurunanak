@@ -32284,10 +32284,10 @@ span.select2-selection.select2-selection--single:focus {
 /* Small Mobile */
 @media (max-width: 480px) {
   .hero-style10 .hero-title {
-    font-size: 28px;
+    font-size: 19px;
   }
 
   .hero-style10 .hero-text {
-    font-size: 15px;
+    font-size: 14px;
   }
 }
