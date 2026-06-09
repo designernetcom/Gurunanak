@@ -32242,7 +32242,7 @@ span.select2-selection.select2-selection--single:focus {
 /* Mobile */
 @media (max-width: 767px) {
   .hero-10 .th-hero-slide {
-    min-height: 100vh;
+    height: 100%;
   }
 
   .hero-10 .th-hero-bg img {
