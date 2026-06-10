@@ -32009,7 +32009,7 @@ span.select2-selection.select2-selection--single:focus {
 }
 .process-card img {
   width: 70px;
-  height: 70px;
+  height: 70px !important;
 }
 /* Custom mobile css */
 
