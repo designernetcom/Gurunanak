@@ -31859,7 +31859,7 @@ span.select2-selection.select2-selection--single:focus {
   background-color: #eaf3f3;
 }
 .responstable th {
-  display: none;
+  /* display: none; */
   border: 1px solid #fff;
   background-color: #03192b;
   color: #fff;
@@ -31887,7 +31887,7 @@ span.select2-selection.select2-selection--single:focus {
   }
 }
 .responstable td {
-  display: block;
+  /* display: block; */
   word-wrap: break-word;
   max-width: 7em;
 }
@@ -32011,6 +32011,7 @@ span.select2-selection.select2-selection--single:focus {
   width: 70px;
   height: 70px !important;
 }
+
 /* Custom mobile css */
 
 @media only screen and (min-width: 991px) and (max-width: 1300px) {
@@ -32060,7 +32061,7 @@ span.select2-selection.select2-selection--single:focus {
     text-align: center;
   }
   .equipment_catlog_section6 .grid-view {
-    grid-template-columns: auto;
+    grid-template-columns: auto auto;
   }
   .equipment_catlog_section7 .price-box {
     height: auto;
@@ -32127,6 +32128,15 @@ span.select2-selection.select2-selection--single:focus {
   }
   .sector_compliance_section2 .why-item_wrapper {
     grid-template-columns: repeat(1, 1fr);
+  }
+  .site_vsr .th-btn_site {
+    margin: 5px 0;
+  }
+  .spotlight .video-box1 .img1 img {
+    margin-top: 30px;
+  }
+  .equipment_catlog_section6 {
+    padding: 50px 0 0;
   }
 }
 
