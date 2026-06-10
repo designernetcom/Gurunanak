@@ -21531,11 +21531,12 @@ span.select2-selection.select2-selection--single:focus {
   box-shadow: 0px 6px 30px 0px rgba(0, 0, 0, 0.06);
   text-align: center;
   position: relative;
-  margin-top: 50px;
-  padding: 85px 30px 40px;
+  /* margin-top: 50px; */
+  padding: 40px 40px;
   -webkit-transition: 0.4s;
   transition: 0.4s;
   z-index: 1;
+  border-radius: 15px;
 }
 .process-card_icon {
   width: 100px;
@@ -21591,9 +21592,12 @@ span.select2-selection.select2-selection--single:focus {
   font-size: 20px;
   font-weight: 600;
   margin-bottom: 15px;
+  margin-top: 20px;
   display: block;
   -webkit-transition: 0.4s;
   transition: 0.4s;
+  border-bottom: 2px solid var(--theme-color);
+  padding-bottom: 10px;
 }
 .process-card_text {
   margin-bottom: -0.5em;
@@ -31609,9 +31613,9 @@ span.select2-selection.select2-selection--single:focus {
 .sector_compliance_section3 .service-grid .checklist ul {
   grid-template-columns: repeat(1, 1fr);
 }
-.process-sec_section5 .process-card {
+/* .process-sec_section5 .process-card {
   height: 35vh;
-}
+} */
 .process-sec_section5 .process-card .process-card_icon img {
   width: 50px;
   height: 50px;
@@ -32003,7 +32007,9 @@ span.select2-selection.select2-selection--single:focus {
   background-position: center;
   background-repeat: no-repeat;
 }
-
+.process-card img {
+  width: 70px;
+}
 /* Custom mobile css */
 
 @media only screen and (min-width: 991px) and (max-width: 1300px) {
