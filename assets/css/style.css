@@ -31537,9 +31537,7 @@ span.select2-selection.select2-selection--single:focus {
 .science {
   padding: 80px 0 50px;
 }
-.slide {
-  /* padding: 40px 0 30px; */
-}
+
 .slide h2 {
   font-size: 36px;
 }
@@ -31808,7 +31806,12 @@ span.select2-selection.select2-selection--single:focus {
   background: #ff0000;
   margin: 1rem 0;
 }
-
+.product_section .team-card2 .team-title {
+  margin-bottom: 0;
+}
+.product_section {
+  padding: 50px 0;
+}
 @media (max-width: 768px) {
   .diagonal-content {
     grid-template-columns: 1fr;
@@ -32011,7 +32014,17 @@ span.select2-selection.select2-selection--single:focus {
   width: 50px;
   height: 50px !important;
 }
-
+.process-card i {
+  font-size: 50px;
+  color: #fa0720;
+}
+.product_section .team-card2 .team-title a {
+  color: inherit;
+  font-size: 20px;
+}
+.product_section .team-card2 .team-content {
+  padding: 25px 15px 25px 15px;
+}
 /* Custom mobile css */
 
 @media only screen and (min-width: 991px) and (max-width: 1300px) {
